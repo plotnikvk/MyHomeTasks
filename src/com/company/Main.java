@@ -9,9 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double firstNumber;//переменная, в которой сохраняется первое число
-        String operation;
-        double secondNumber;
+        double firstNumber;//Переменная, типа double, в которой сохраняется первое число
+        String operation;// Переменная типа String, которая сохраняет знак операции
+        double secondNumber;// Переменная, типа double, в которой сохраняется второе число
 
         Scanner in = new Scanner(System.in);
 
