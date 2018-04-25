@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double firstNumber;
+        double firstNumber;//переменная, в которой сохраняется первое число
         String operation;
         double secondNumber;
 
