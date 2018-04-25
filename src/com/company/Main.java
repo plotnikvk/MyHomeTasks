@@ -1,6 +1,6 @@
 package com.company;
 
-import java.util.Scanner;
+import java.util.Scanner;//Подключаем класс Scanner для ввода с консоли
 
 /**
  * Класс, который содержит метод main - точку входа в приложение
