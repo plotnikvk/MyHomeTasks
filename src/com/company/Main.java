@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Точка входа в программу
 
         double firstNumber;//Переменная, типа double, в которой сохраняется первое число
         String operation;// Переменная типа String, которая сохраняет знак операции
@@ -16,12 +16,29 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите первое целое число или число c плавающей точкой: ");
+        /*
+        Первой переменной присваивается значение, введенной с консоли строки, приведенной к типу Float методом
+         parseFloat
+          */
         firstNumber = Float.parseFloat(in.next());
+
         System.out.println("Введите второе целое число или число c плавающей точкой: ");
+        /*
+        Второй переменной присваивается значение, введенной с консоли строки, приведенной к типу Float методом
+         parseFloat
+         */
         secondNumber = Float.parseFloat(in.next());
+
         System.out.println("Введите знак операции(Возможны: +, -, *, /, %): ");
+        /*
+        Переменной operation присваивается знак операции, для последующей передачи в оператор переключения Switch-case
+          */
         operation = in.next();
 
+
+        /*
+        Здесь производится переключение в зависимости от значения переменной operation
+         */
         switch (operation){
              case "+":
                  System.out.printf("Результат операции сложения числа %.4f и числа %.4f:\t\t%.4f \n", firstNumber,
